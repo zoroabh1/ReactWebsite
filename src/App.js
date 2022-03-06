@@ -1,13 +1,9 @@
-import logo from './logo.svg';
 import {createTheme, ThemeProvider} from '@material-ui/core/styles'
 import './App.css';
-import createPalette from '@material-ui/core/styles/createPalette';
-import CustomButton from './components/CustomButton';
 import { makeStyles } from '@material-ui/core';
 import NavBar from './components/NavBar';
 import { Typography } from '@material-ui/core';
 import Grid from './components/Grid';
-
 import SecurityIcon from '@material-ui/icons/Security';
 import EventNoteIcon from '@material-ui/icons/EventNote';
 import TrendingUpIcon from '@material-ui/icons/TrendingUp';
